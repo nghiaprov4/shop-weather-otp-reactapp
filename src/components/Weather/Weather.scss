@@ -1,0 +1,70 @@
+.weather-container {
+
+
+    .search-container {
+        .search-input {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding-top: 15px;
+            height: 28px;
+
+            input {
+                width: 200px;
+                padding: 0 5px;
+            }
+        }
+
+
+        .result-container {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+
+            .woeid {
+                span {
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+
+    }
+
+
+}
+
+.weather-by-location-container {
+    padding: 15px;
+
+    .list-weather-day {
+        display: flex;
+        gap: 20px;
+
+        .weather-day-0 {
+            display: flex;
+
+            .location-data {
+                padding: 15px;
+                min-width: 150px;
+            }
+
+            .title {
+                font-size: 20px;
+                color: #337ab7;
+                margin-bottom: 10px;
+            }
+
+            .day {
+                font-size: 13px;
+
+            }
+        }
+    }
+
+}
